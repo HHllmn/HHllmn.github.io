@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Hillman</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+    
+<body>
+    <header>
+        <nav>
+            <div class="brand-name">
+                <a href="#home">Harry Hillman</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <div class="intro-text">
+                <h1>Welcome to Harry Hillman's Portfolio</h1>
+                <p>Building solutions with function and purpose.</p>
+            </div>
+            <div class="photo">
+                <img src="/images/graduation.jpg" alt="Me Graduating">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Harry Hillman, a software developer with a passion for creating clean and efficient code. I love working on projects with a purpose behind them, mainly helping people and making lives easier. I am proficient in full-stack development, with a focus on modern web technologies. My goal is to build responsive and accessible websites that provide a seamless user experience.</p>
+        <p>I graduated from the <strong>University of York</strong> with a <strong>Bachelors Of Science in Computer Science</strong>, my dissertation was on Financial Forecasting using Machine Learning. Through university aside from my studies I spent time exploring interests, namely: gym, art, web development, and videogames.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3 class="project-title">MediReturn.co.uk</h3>
+                <div class="project-header" style="background-image: url('/images/medireturn.png');">
+                    <!-- The background image will now be handled here -->
+                </div>
+                <div class="skills">
+                    <ul> 
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>AWS</li>
+                        <li>Google Maps API</li>
+                        <li>MongoDB</li>
+                        <li>API Integration</li>
+                        <li>NodeMailer</li>
+                        <li>SMSWorks API</li>
+                    </ul>
+                </div>
+                <p>A website to return used crutches to NHS Hospitals, to reduce spending and carbon emissions. <br/> I created this site in React and Node.js, using Google Maps API and other APIs to communicate with various couriers to arrange collection. This site also required learning MongoDB to store user details and consent information, aswell as NodeMailer and SMSWorks APIs for detail authentication. I then contacted key NHS staff, aiming to implement it within NHS University Hospitals Coventry Warwickshire Trust.</p>
+                <a href="https://medireturn.co.uk" target="_blank">Currently Password Protected</a>
+            </div>
+            <div class="project">
+                <h3 class="project-title">Financial Forecasting using Machine Learning</h3>
+                <div class="project-header" style="background-image: url('/images/financial-forecasting.webp');">
+                    <!-- The background image will now be handled here -->
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Scikit-learn</li>
+                        <li>Yahoo Finance API</li>
+                        <li>Time Series Analysis</li>
+                        <li>Statistical Models</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <p>For my university dissertation, "Financial Forecasting: Comparing Traditional and Modern Approaches When Forecasting Index Funds", I developed financial forecasting models using statistical and machine learning techniques. I utilised Yahoo Finance to gather historical financial data and applied various models including ARIMA, LSTM, Random Forest, and VARMA. Under the guidance of my supervisor, Dimitar Kazakov, I analysed and compared the performance of these models in predicting stock prices and market trends.</p>
+                <a href="/images/Harry_Hillman-Financial-Forecasting-using-Machine-Learning.pdf" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3 class="project-title">UnityInScripture.com</h3>
+                <div class="project-header" style="background-image: url('/images/unity-in-scripture.png');">
+                    <!-- The background image will now be handled here -->
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>AWS</li>
+                        <li>OpenAI API</li>
+                        <li>MongoDB</li>    
+                    </ul>
+                </div>
+                <p>This project is a comprehensive digital library that provides access to religious texts from all major world religions. It features full-text search capabilities, categorized content, AI-driven clergy for virtual guidance, and tools for comparing similar teachings across different religions. The platform also includes directories for local places of worship and communities. I also intend to add forums and online discussion boards, aswell as audio recordings for each text passage.</p>
+                <a href="http://unityinscripture.com" target="_blank">WIP</a>
+            </div>
+            
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>I'd love to hear from you! Whether it's a project or job inquiry or just to say hi, feel free to reach out:</p>
+        <p>Email: <a href="mailto:harry@harryhillman.com">harry@harryhillman.com</a></p>
+        <p>Or find me on:</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/hhllmn/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/HHllmn/" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Harry Hillman. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
