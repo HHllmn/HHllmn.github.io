@@ -169,6 +169,26 @@ section h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .photo {
+        flex: 0 0 auto;
+    }
+
+    .photo img {
+        max-width: 80%;
+    }
+}
 
 .project-list {
     display: grid;
