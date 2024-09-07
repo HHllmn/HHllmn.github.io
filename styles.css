@@ -324,6 +324,53 @@ footer {
     color: #0056b3;
 }
 
+/* Download CV Section */
+#download-cv {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 60px auto;
+    max-width: 800px;
+}
+
+#download-cv h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #ffc107;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+#download-cv p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.download-btn i {
+    margin-right: 8px;
+}
+
 
 /* Animations */
 @keyframes fadeInUp {
